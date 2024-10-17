@@ -8,6 +8,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - Refactored `InputAction.Builder` and added constructor validation
 - Added `endpoint_type` to `AnswerWebhook`
 - Added `@JsonCreator` annotation to webhook classes' `fromJson(String)` method
+- Added `app_id` to `com.vonage.client.numbers.OwnedNumber`
+- Fixed Viber Video message TTL field being set incorrectly
 
 # [8.11.0] - 2024-09-25
 - Added custom user agent property setting to `HttpConfig`
